@@ -1,3 +1,16 @@
+# Reverse Proxy for Lab Environment
+
+To install and run,
+```
+sudo get clone https://github.com/patrickcberry/lab-proxy.git
+cd lab-proxy
+sudo ./init-letsencrypt.sh
+sudo docker-compose up -d
+```
+The above in on Ubuntu 20 LTS.
+
+----
+
 # Boilerplate for nginx with Let’s Encrypt on docker-compose
 
 > This repository is accompanied by a [step-by-step guide on how to
